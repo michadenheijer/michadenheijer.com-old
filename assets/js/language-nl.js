@@ -8,8 +8,7 @@ $(document).ready(function () {
         message.style.display = 'inline';
     } else if (userLang == "nl-BE") {
         message.style.display = 'inline';
-    } else {
-    }
+    } else {}
 });
 
 $("#button-close").click(function () {
