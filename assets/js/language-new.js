@@ -2,25 +2,25 @@ var message = document.getElementById("lang-message");
 var importLang = window.location.pathname;
 var currentLang = importLang.substring(1, importLang.lastIndexOf('/'));
 if (currentLang == '/') {
-   currentLang = 'en'
+    currentLang = 'en'
 }
 var oppLang;
 if (currentLang == 'en') {
     oppLang = 'nl';
-} else { 
+} else {
     oppLang = 'en';
 }
 var extLang = '/' + oppLang + '/'
-var userLang = navigator.language.substring(0,2) || navigator.userLanguage.substring(0,2);
+var userLang = navigator.language.substring(0, 2) || navigator.userLanguage.substring(0, 2);
 
 $(document).ready(function () {
-   if (currentLang == 'nl' && userLang == 'nl') {
-       message.style.display = 'none';
-   } else if (currentLang !='nl' && userLang != 'nl') {
-       message.style.display = 'none';
-   } else {
-       message.style.display = 'inline';
-   }
+    if (currentLang == 'nl' && userLang == 'nl') {
+        message.style.display = 'none';
+    } else if (currentLang != 'nl' && userLang != 'nl') {
+        message.style.display = 'none';
+    } else {
+        message.style.display = 'inline';
+    }
 });
 
 function setLang(lang) {
@@ -34,35 +34,35 @@ $("#button-close").click(function () {
 });
 
 $("#button-change-lang").click(function () {
-    setLang(oppLang);
-    window.location.href = "https://michadenheijer.com" + extLang + page;
+            setLang(oppLang);
+            window.location.href = "https://michadenheijer.com" + extLang + page;
 
-$("#button-en").click(function () {
-    setLang('en');
-    window.location.href = "https://michadenheijer.com/"
-});
+            $("#button-en").click(function () {
+                setLang('en');
+                window.location.href = "https://michadenheijer.com/"
+            });
 
-$("#button-en-pr").click(function () {
-    setLang('en');
-    window.location.href = "https://michadenheijer.com/projects"
-});
+            $("#button-en-pr").click(function () {
+                setLang('en');
+                window.location.href = "https://michadenheijer.com/projects"
+            });
 
-$("#button-en-sm").click(function () {
-    setLang('en');
-    window.location.href = "https://michadenheijer.com/social-media"
-});
+            $("#button-en-sm").click(function () {
+                setLang('en');
+                window.location.href = "https://michadenheijer.com/social-media"
+            });
 
-$("#button-nl").click(function () {
-    setLang('nl');
-    window.location.href = "https://michadenheijer.com/nl/"
-});
+            $("#button-nl").click(function () {
+                setLang('nl');
+                window.location.href = "https://michadenheijer.com/nl/"
+            });
 
-$("#button-nl-pr").click(function () {
-    setLang('nl');
-    window.location.href = "https://michadenheijer.com/nl/projecten"
-});
+            $("#button-nl-pr").click(function () {
+                setLang('nl');
+                window.location.href = "https://michadenheijer.com/nl/projecten"
+            });
 
-$("#button-nl-sm").click(function () {
-    setLang('nl');
-    window.location.href = "https://michadenheijer.com/nl/sociale-media"
-});
+            $("#button-nl-sm").click(function () {
+                setLang('nl');
+                window.location.href = "https://michadenheijer.com/nl/sociale-media"
+            });
