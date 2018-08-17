@@ -3,6 +3,37 @@
 
 This is my personal website, it uses a theme from [TEMPLATED.co](http://TEMPLATED.co), so if you want to use this theme, download it from their website.
 
+## Editing
+This website uses HTML/CSS/JS (and PHP I'm not proud of it), so to edit you just need a text editor.
+
+### Step 1: Clone the project
+Clone the project so you can edit it
+```
+$ git clone git@github.com:michadenheijer/michadenheijer.com.git
+```
+
+### Step 2: Use an editor to edit the files
+This can be any editor like [Brackets](http://brackets.io), [Visual Studio Code](https://code.visualstudio.com/) or even [Vim](https://www.vim.org/).
+
+### Step 3: Add the files to Git
+First make sure to add the files to Git.
+```
+$ git add .
+```
+Make a commit
+```
+$ git commit -m "YOUR COMMIT MESSAGE HERE"
+```
+
+### Step 4: Push the files to GitHub
+Now you have to upload the files to GitHub.
+```
+$ git push -u origin master
+```
+
+## Deploy
+This repository automatically deploys itself when there's a new version pushed to GitHub using [Buddy](http://buddy.works/).
+
 ## Changes I made
 - Combined all CSS files
 - Changed some CSS for better iPad view
@@ -34,6 +65,7 @@ This is my personal website, it uses a theme from [TEMPLATED.co](http://TEMPLATE
     - [Chris Lawton](https://unsplash.com/@chrislawton)
     - [Casey Allen](https://unsplash.com/@westbeach013)
     - [Giammarco Boscaro](https://unsplash.com/@giamboscaro)
-- Hosting: 
+- Hosting/Deployment: 
   - [TransIP](http://transip.nl)
   - [Cloudflare](http://cloudflare.com)
+  - [Buddy](http://buddy.works/)
