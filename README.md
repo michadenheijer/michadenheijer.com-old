@@ -65,7 +65,31 @@ This repository automatically deploys itself when there's a new version pushed t
     - [Chris Lawton](https://unsplash.com/@chrislawton)
     - [Casey Allen](https://unsplash.com/@westbeach013)
     - [Giammarco Boscaro](https://unsplash.com/@giamboscaro)
+- Scripts:
+  - [jQuery](https://jquery.org)
+  - [jQuery.Scrollex](https://github.com/ajlkn/jquery.scrollex)
+  - [jQuery.Scrolly](https://github.com/Victa/scrolly)
+  - [Skel](https://github.com/ajlkn/skel/blob/master/README.md)
+  - [TEMPLATED.co](http://templated.co)
 - Hosting/Deployment: 
   - [TransIP](http://transip.nl)
   - [Cloudflare](http://cloudflare.com)
   - [Buddy](http://buddy.works/)
+  
+## License
+ - Theme: 
+   - TEMPLATED.co: [Creative Commons Attribution 3.0](https://templated.co/license)
+ - Video: 
+   - Coverr: [Coverr License](https://coverr.co/license)
+ - Images:
+   - Pixabay: [Creative Commons Attribution 0 (1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+   - Pexels: [Pexels License](https://www.pexels.com/photo-license/)
+   - Unsplash: [Unsplash License](https://unsplash.com/license)
+ - Scripts:
+   - jQuery: [MIT License](https://tldrlegal.com/license/mit-license)
+   - jQuery.Scrollex: [MIT License](https://tldrlegal.com/license/mit-license)
+   - jQuery.Scrolly: [MIT License](https://tldrlegal.com/license/mit-license)
+   - Skel: [MIT License](https://tldrlegal.com/license/mit-license)
+ - Text:
+   - Micha den Heijer: [Creative Commons Attribution (1.0)](https://creativecommons.org/publicdomain/zero/1.0/)
+   
