@@ -61,3 +61,4 @@ Redirect 301 /assets/css/main16062018.css /assets/css/main.css
 Redirect 301 /assets/css/main20062018.css /assets/css/main.css
 Redirect 301 /profile /images/hotlink-ok/profile.jpg
 Redirect 301 /profile.jpg /images/hotlink-ok/profile.jpg
+Redirect 302 /projects /projects/
