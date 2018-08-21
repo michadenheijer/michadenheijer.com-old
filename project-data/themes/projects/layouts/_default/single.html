@@ -7,11 +7,11 @@
 <html>
 
 <head>
-    <title>Micha den Heijer | Projects</title>
-    <meta name='description' content="Micha den Heijer | Here are all of projects, feel free to look around!" />
-    <meta property="og:title" content="Micha den Heijer | Projects" />
-    <meta property="og:description" content="Micha den Heijer | Here are all of projects, feel free to look around!" />
-    <meta property="og:url" content="http://michadenheijer.com/projects" />
+    <title>Micha den Heijer | {{ .Title }}</title>
+    <meta name='description' content="Micha den Heijer | {{ .Description }}" />
+    <meta property="og:title" content="Micha den Heijer | {{ .Title }}"/>
+    <meta property="og:description" content="Micha den Heijer | {{ .Description }}" />
+    <meta property="og:url" content="{{ .URL }}" />
     <meta property="og:image" content="https://michadenheijer.com/images/favicon.png" />
     <meta property="og:type" content="website" />
     <meta charset="utf-8" />
@@ -33,7 +33,7 @@
 
     <!-- Header -->
     <header id="header">
-        <div class="logo"><a href="/">Micha <span>den Heijer</span></a></div>
+        <div class="logo"><a href="https://michadenheijer.com">Micha <span>den Heijer</span></a></div>
         <a href="#menu" class="toggle"><span>Menu</span></a>
     </header>
 
@@ -57,11 +57,13 @@
                 </div>
                 <div class="content no-overflow">
                     <header class="align-center">
-                        <h1>My projects</h1>
-                        <p>most of them, I guess</p>
+                        <h1>{{ .Title }}</h1>
+                        <p>{{ .Date.Format "January 2, 2006" }}</p>
                     </header>
                     <hr />
-                    
+                    <span class="image fit">
+                      {{ .Content }}
+                    </span>
                 </div>
             </div>
         </div>
@@ -86,3 +88,4 @@
 </body>
 
 </html>
+

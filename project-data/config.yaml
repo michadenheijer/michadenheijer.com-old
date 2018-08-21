@@ -1,0 +1,10 @@
+baseURL: /
+title: "Projects"
+defaultContentLanguage: en
+languages:
+  en:
+    lang: en
+    languageName: English
+    weight: 1
+MetaDataFormat: "yaml"
+theme: "projects"
