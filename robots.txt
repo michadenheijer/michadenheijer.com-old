@@ -46,4 +46,7 @@ Disallow: /images/error/error02.jpg
 User-agent: *
 Disallow: /images/error/error03.jpg
 
+User-agent: CuteStat
+Disallow: /
+
 Sitemap: https://michadenheijer.nl/sitemap.xml
