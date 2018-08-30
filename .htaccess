@@ -14,7 +14,7 @@ RewriteRule ^(.*)index\.(php|html?)$ /$1 [R=301,NC,L]
 
 # security headers
 <IfModule mod_headers.c> 
-  Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+  Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
   Header always set X-Frame-Options "SAMEORIGIN"
   Header always set X-Xss-Protection "1; mode=block"
   Header always set X-Content-Type-Options "nosniff"
