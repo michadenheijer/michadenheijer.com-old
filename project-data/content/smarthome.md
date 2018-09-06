@@ -5,7 +5,7 @@ date: "2018-08-25"
 
 I've made my own smarthome, I've used several open source projects like [Home Assistant](http://home-assistant.io), [Homebridge](http://homebridge.io/) and [MagicMirror](http://magicmirror.builders). You can find [my Home Assistant config](http://github.com/michadenheijer/home-assistant-config). The control system looks something like this:
 
-![Home](https://raw.githubusercontent.com/michadenheijer/home-assistant-config/master/screenshots/home-assistant-home.png)
+![Home](https://michadenheijer.com/images/home-assistant-home.png)
 
 I'm also making a Smart Mirror, which will be able to tell which lights are on and who are home, but that's another project. There are a lot of components in this smart home and it's easy to edit.
 
